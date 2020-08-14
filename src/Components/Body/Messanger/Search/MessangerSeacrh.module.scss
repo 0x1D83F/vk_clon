@@ -1,0 +1,22 @@
+.search{
+  display: flex;
+  padding: 15px;
+}
+.logo img{
+  max-width: 15px;
+}
+.input {
+  width: 100%;
+  margin-left: 10px;
+}
+.input input{
+  width: 100%;
+}
+.start_dialog svg{
+  max-width: 18px;
+  max-height: 18px;
+}
+
+.start_dialog:hover svg path{
+  fill: #54657b;
+}

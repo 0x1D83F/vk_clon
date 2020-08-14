@@ -1,0 +1,59 @@
+.wrapper{
+  padding-bottom: 5px;
+}
+.line{
+  width: 100%;
+  opacity: .1;
+  background-color: black;
+  height: 1px;
+}
+.blockInfo{
+  width: 100%;
+  margin-top: 7px;
+}
+.dialogs{
+  padding: 15px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0, .1);
+}
+.dialogs:hover{
+  background-color: #F7F8FA;
+}
+.avatar{
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.avatar img{
+  max-width: 50px;
+}
+.message{
+  width: 100%;
+}
+.dialogs a{
+  display: flex;
+}
+.name{
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Roboto, Sans-Serif;
+  padding-bottom: 5px;
+}
+.head{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.text{
+  max-width: 80%;
+}
+.text,
+.time{
+  color: #767676;
+  font-size: 12px;
+}
+.time{
+  margin-right: 10px;
+}

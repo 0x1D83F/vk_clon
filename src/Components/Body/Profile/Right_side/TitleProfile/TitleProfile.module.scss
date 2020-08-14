@@ -1,0 +1,164 @@
+.title{
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+  margin-left: 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.name p {
+  font-size: 19px;
+  line-height: 25px;
+}
+
+
+.inp{
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  color: #a3a3a3;
+  padding: 5px;
+  font-size: 12.5px;
+}
+.inp:hover{
+  background-color: #E5EBF1;
+}
+
+.hidden_status{
+  background-color: #FAFBFC;
+  z-index: 1;
+  position: absolute;
+  width: 104%;
+  left: -2%;
+  top: 20px;
+  border-radius: 5px;
+  border: 1px solid #D3D9DE;
+  padding: 10px 10px 0 10px;
+}
+.hidde_input input{
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #D3D9DE;
+  background-color: #fff;
+  height: 25px;
+  padding: 0 5px;
+}
+.hidden_btn{
+  margin: 10px 0;
+}
+.hidden_btn button{
+  border-radius: 3px;
+  padding: 5px 10px;
+  background-color: #5181B8;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12.5px;
+  letter-spacing: .5px;
+}
+.hidden_btn button:hover{
+  background-color: rgba(81, 129, 184, 0.88);
+}
+.line{
+  margin: 10px 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  opacity: .1;
+}
+.city{
+  display: flex;
+}
+.city_title{
+  color: #9D9D9D;
+  flex: 0 1 35%;
+}
+.city_value {
+  color: #598bba;
+}
+.showMore_btn{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.btn{
+  padding: 10px 0;
+  width: 100%;
+  background-color: transparent;
+  color: #598bba;
+  font-size: 12.5px;
+}
+.btn:hover{
+  background-color: #E5EBF1;
+}
+
+
+.transformed_info{
+  margin-top: 10px;
+}
+.block{
+  margin: 0 0 20px 0;
+}
+.block_title{
+  display: flex;
+}
+.block_name{
+  font-size: 12.5px;
+  //color: #9D9D9D;
+  color: black;
+  line-height: 16px;
+  white-space: nowrap;
+  letter-spacing: .5px;
+}
+.block_line_wrap{
+  height: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.block_line{
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  opacity: .1;
+  margin-left: 10px;
+}
+.block_items{
+  display: flex;
+  margin-top: 10px;
+}
+.item_title{
+  margin-bottom: 5px;
+  color: #9D9D9D;
+  flex: 0 1 35%;
+  white-space: nowrap;
+  font-size: 12.5px;
+}
+.value {
+  color: #598bba;
+  flex: 0 1 65%;
+  font-size: 12.5px;
+  line-height: 16px;
+}
+.value:hover{
+  text-decoration: underline;
+}
+.our_information{
+  display: flex;
+  justify-content: space-around;
+}
+.count{
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #4B7298;
+}
+.hang{
+  color: #8d8d8d;
+  flex: 0 1 35%;
+  white-space: nowrap;
+  font-size: 13.5px;
+}
+.our_item:hover .hang{
+  color: #598bba;
+}

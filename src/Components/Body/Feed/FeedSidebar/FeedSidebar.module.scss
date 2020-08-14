@@ -1,0 +1,49 @@
+
+
+.main_side{
+  background-color: #fff;
+  margin: 0 0 0 15px;
+  padding: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #E7E8EC;
+}
+
+.title{
+  display: flex;
+  font-size: 13px;
+}
+.title,
+.recommendation,
+.search,
+.liked,
+.updates,
+.comments{
+  padding: 9px 15px;
+  color: #4678a8;
+  font-size: 12.5px;
+}
+
+.list_item{
+  color: #a3a3a3;
+  padding: 1vmin 3vmin;
+  margin-top: 5px;
+}
+.active{
+  background-color: #F0F2F5;
+  border-left: 2px solid #5181B8;
+  font-weight: 600;
+}
+.name{
+  color:  #4678a8;
+  margin-right: 18vmin;
+}
+.mod_3{
+  padding-right: 10px;
+}
+.mod_1 img{
+  max-width: 13px;
+}
+
+[class*='mod_2']:hover{
+  background-color:  #F0F2F5;
+}

@@ -1,0 +1,17 @@
+.wrapp{
+    min-height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.wrapp:hover{
+    background-color: #416A9A;
+}
+.img{
+    padding: 0 8px;
+    cursor: pointer;
+}
+.img img{
+    max-width: 20px;
+}

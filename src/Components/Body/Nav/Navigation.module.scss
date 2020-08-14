@@ -1,0 +1,54 @@
+$mainColor: #4A76A8;
+$grey_btn: #BFCFE0;
+$grey_bg: #EDEEF0;
+$fontColor: #4678a8;
+$menuColor: #9AB1C6;
+$tahoma: 'Tahoma';
+$ff_default: 12px;
+@mixin menu-styles {
+  font{
+    size: $ff_default;
+    weight: 500;
+  }
+  line-height: 13px;
+  color: $fontColor;
+}
+
+.link_container{
+  display: flex;
+  position: relative;
+  padding: 7px 30px 7px 10px;
+}
+.link_container:hover{
+  background-color: #DCE1E6;
+}
+.setting_hide{
+  position: absolute;
+  left: -15%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.link_container img {
+  max-width: 16px;
+}
+img[class*='setting_hide']{
+  max-width: 12px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.menu_item{
+  margin-bottom: 10px;
+}
+.menu_item:hover img[class*='setting_hide']{
+  opacity: 1;
+  fill: red;
+}
+.base{
+  @include menu-styles;
+  margin: 0 0 0 10px;
+  white-space: nowrap;
+  font-size: 13.5px;
+  line-height: 20px;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+	<g>
+		<path d="M90,211h-8.344C86.823,219.86,90,230.023,90,241v151h30V211H90z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#9AB1C6"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M60,422V241c0-16.569-13.431-30-30-30c-16.569,0-30,13.431-30,30c0,9.661,0,201.83,0,211c0,33.137,26.863,60,60,60    s60-26.863,60-60v-30H60z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#9AB1C6"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="376" y="211" width="61" height="151" data-original="#000000" class="active-path" data-old_color="#000000" fill="#9AB1C6"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="225" y="91" width="212" height="30" data-original="#000000" class="active-path" data-old_color="#000000" fill="#9AB1C6"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M150,0c0,3.221,0,455.541,0,452c0,23.134-9.016,44.041-23.408,60H437c41.353,0,75-33.647,75-75V0H150z M195,181h121v30    H195V181z M195,241h121v30H195V241z M195,302h121v30H195V302z M195,362h121v30H195V362z M467,452H195v-30h272V452z M467,392H346    V181h121V392z M467,151H195V61h272V151z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#9AB1C6"/>
+	</g>
+</g></g> </svg>

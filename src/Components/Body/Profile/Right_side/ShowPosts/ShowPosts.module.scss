@@ -1,0 +1,51 @@
+.wrapp{
+  background-color: #fff;
+  padding: 15px;
+  margin: 15px 0 15px 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+.mod{
+  margin-bottom: 15px;
+}
+.info{
+  display: flex;
+}
+.name{
+  align-self: center;
+  font-size: 12.5px;
+  margin-left: 15px;
+  color: #09446d;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.logo{
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.logo img{
+  max-width: 100%;
+}
+
+.post_message{
+  margin: 15px 0;
+}
+
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  opacity: .1;
+  margin-bottom: 10px;
+}
+.like{
+  cursor: pointer;
+}
+.like img{
+  max-width: 25px;
+}
+.shrp {
+  opacity: 1;
+}

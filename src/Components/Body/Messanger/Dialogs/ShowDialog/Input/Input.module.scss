@@ -1,0 +1,32 @@
+.wrapper{
+  display: flex;
+  padding: 10px 10px;
+  border-top: 1px solid rgba(0,0,0, .1);
+}
+.area{
+  width: 100%;
+}
+.area input{
+  width: 100%;
+  border: 1px solid rgba(0,0,0, .1);
+  border-radius: 5px;
+  padding: 10px;
+}
+.submit{
+  align-self: center;
+}
+.submit:hover .btn svg path{
+  fill: #4A76A8;
+  transition: .2s;
+}
+.btn{
+  padding: 0 10px;
+}
+
+.submit button{
+  background-color: transparent;
+  transform: rotate(45deg);
+}
+.submit button img{
+  max-width: 25px;
+}

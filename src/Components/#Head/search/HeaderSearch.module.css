@@ -1,0 +1,45 @@
+.content{
+    margin: 0px 0 0 20vmin;
+    float: right;
+    align-self: center;
+}
+.content form {
+    background-color: #224B7A;
+    padding: 0 25px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+.logo{
+    display: flex;
+    margin-left: 8px;
+    cursor: pointer;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logo img {
+    max-width: 15px;
+    align-self: center;
+}
+.input input{
+    height: 28px;
+    margin-left: 6px;
+    background-color: transparent;
+}
+.input input::placeholder{
+    padding: 0 0 0 .5vmin;
+    color: #7F9ABB;
+    font-size: 1em;
+}
+.input input:focus::placeholder{
+    color: transparent;
+}
+
+.blueColor{
+    background-color: #224B7A;
+}
+.whiteColor{
+    background-color: #fff;
+}

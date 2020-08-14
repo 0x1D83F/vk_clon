@@ -1,0 +1,49 @@
+.wrapper{
+  margin: 15px 0 15px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #E7E8EC;
+}
+.header{
+  padding: 15px;
+}
+.info{
+  align-self: center;
+  margin-left: 5px;
+}
+.timer{
+  font-size: 11.5px;
+  margin-top: 5px;
+  color: #6889A8;
+}
+.logo{
+  overflow: hidden;
+}
+.logo img{
+  max-width: 50px;
+}
+.header{
+  display: flex;
+}
+.content_screen{
+  margin-bottom: 15px;
+}
+.content_img .content_screen img{
+  max-width: 100%;
+}
+.content_text{
+  margin: 0 0 10px 15px;
+}
+
+.line{
+  width: 100%;
+  background-color: rgba(0,0,0, .1);
+  height: 1px;
+}
+.interplay{
+  margin: 15px 0 15px 15px;
+}
+.like img{
+  max-width: 20px;
+  cursor: pointer;
+}

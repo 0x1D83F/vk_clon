@@ -1,0 +1,57 @@
+.wrapp{
+  display: flex;
+  width: 100%;
+}
+.left{
+  margin: 0 0 0 15px;
+}
+.avatar{
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.photo img {
+  max-height: 290px;
+  border-radius: 3px;
+}
+
+.edit_btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.edit{
+  width: 70%;
+  text-align: center;
+  margin-right: 5%;
+}
+.edit a {
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%;
+  background-color: #E5EBF1;
+  border-radius: 5px;
+  color: #6E7E91;
+}
+.points_item{
+  background-color: #93A3BC;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+.points_item:last-of-type{
+  margin-right: 0;
+}
+.points{
+  width: 25%;
+}
+.points a {
+  display: flex;
+  height: 100%;
+  background-color: #E5EBF1;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

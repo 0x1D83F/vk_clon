@@ -1,0 +1,104 @@
+import {rerenderer} from "../index";
+
+
+
+let state = {
+    main: [
+        {
+            'name': 'Александр Озеров',
+            'city': 'Los Angeles',
+            'instagram': 'ozerov.life',
+            'school': `Школа №84 \'12'`,
+            'politics_preferences': 'Умеренные',
+            'worldview': 'Светский гуманизм',
+            'main_in_life': 'Саморазвитие',
+            'main_in_people': 'Ум и креативность',
+            'smooking': 'Нейтральное',
+            'alcohol': 'Нейтральное',
+            'favorite_music': ' Electro house, indietronic, trance, инди рок',
+            'favorite_films': ' Форест гамп, 1+1',
+            'favorite_books': 'Морфий',
+            'favorite_quotes': 'Если добро имеет причину, оно уже не добро; если имеет последствие - награду, оно тоже не добро. Стало быть, добро вне всяких цепи причин и следствий'
+        },
+    ],
+    groups: [
+        {
+            'logo': '/static/media/champ.839be6d1.jpg',
+            'name': 'Champions Cup',
+            'time': '5 минут назад',
+            'text': 'Lionel Messi went 34 days between La Liga goals for Barcelona.'
+        }
+    ],
+    posts: [
+        {
+            id: 1, name: 'Александр Озеров',
+            text: 'lorem ipsum dolor sit ammet', contentImg: false,
+            logo: '/static/media/IMG_9397-1-3--.cbb56f27.jpg',
+            time: '',
+        },
+        {
+            id: 2, name: 'Александр Озеров',
+            text: 'Тестовый текст для постов', contentImg: false,
+            logo: '/static/media/IMG_9397-1-3--.cbb56f27.jpg',
+            time: '',
+        }
+    ],
+    'Александр Озеров': { // Чья страница
+        'Arnold schwarzenegger': [ // с кем диалог
+            {time: '12:46',shortName: 'Александр', text: 'lore1', date: new Date},
+            {time: '12:46',shortName: 'Александр', text: 'lorem2', date: new Date},
+            {time: '12:46',shortName: 'Александр', text: 'lorem3', date: new Date},
+
+        ],
+    },
+    dispatch(action){
+        if(action.type === ADD_POST){
+            let counter = this.posts.length + 1;
+            if (action.postValue.length < 1) {
+                alert('нельзя запостить пустое сообщение')
+            } else {
+                let postValue = action.postValue;
+
+                    let res = {
+                        id: counter, name: 'Александр Озеров',
+                        text: postValue, contentImg: false,
+                        logo: '/static/media/IMG_9397-1-3--.cbb56f27.jpg',
+                        time: `(${new Date().getDate() })`,
+                    }
+
+                    state.posts.push(res)
+                    counter = counter + 1;
+
+                    rerenderer();
+            }
+        } else if(action.type === ADD_MESSAGE){
+            if(action.text.length < 1){
+                alert('сообщение пустое') ;
+            } else{
+                let obj = {time: '12:55',text: `${action.text}`, shortName: 'Александр' };
+
+                state['Александр Озеров']["Arnold schwarzenegger"].push(obj)
+
+                rerenderer();
+            }
+
+        }
+    }
+
+}
+export function createAction_addPost(send) {
+    return {
+        type: ADD_POST,
+        postValue: send
+    }
+}
+
+export function createAction_addMessage(text){
+    return{
+        type: ADD_MESSAGE,
+        text: `${text}`,
+        shortName: 'Александр'
+    }
+}
+
+export default state;
